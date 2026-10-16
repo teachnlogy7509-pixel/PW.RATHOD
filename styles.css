@@ -8,3 +8,5 @@
 
 .sidebar{overflow-y:auto}
 @media(max-width:600px){.batch-art>svg{display:none}}
+
+@media(prefers-color-scheme:dark){.nav-item .nav-tag{background:#46385f;color:#e3d9ff}}
