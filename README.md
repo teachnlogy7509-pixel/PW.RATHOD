@@ -27,9 +27,9 @@ python3 -m http.server 8080
 PWA installation requires HTTPS (or localhost). Automatic service-worker registration is enabled on HTTPS sites and localhost. Cached offline mode becomes available after the first successful online visit. No package installation is needed.
 
 ## Deploy the website
-The `Deploy Web App` GitHub Actions workflow packages only public web assets and deploys GitHub Pages on pushes to `main`. GitHub repository Settings → Pages → Source must be **GitHub Actions**; a repository administrator may need to enable Pages. The workflow attempts Pages enablement but repository policy may require this one-time manual step.
+The `Deploy Web App` GitHub Actions workflow packages only public web assets and deploys GitHub Pages on pushes to `main`. GitHub repository Settings → Pages → Source must be **GitHub Actions**; a repository administrator may need to enable Pages. The workflow attempts Pages enablement but repository policy may require this one-time manual step. A branch-based Pages deployment also serves the standalone app: installation icons are embedded in the manifest, so they do not depend on a build step.
 
-Expected URL after successful deployment:
+Web URL:
 https://teachnlogy7509-pixel.github.io/PW.RATHOD/
 
 ## Build and download the Android APK
